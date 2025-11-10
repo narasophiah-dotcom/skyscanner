@@ -1,0 +1,307 @@
+/* 기본 세팅 */
+
+/* ---- section---- */
+
+section:not(.section_1) {
+  padding: 100px 200px;
+}
+
+footer {
+  padding: 100px 200px;
+  background-color: #05203d;
+}
+
+/* ---------------- */
+
+/* ---- wrap ----*/
+
+.menu_wrap {
+  width: 366px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon_wrap {
+  width: 109px;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img_wrap {
+  width: 100%;
+  height: 700px;
+}
+
+.form_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 100px auto;
+  margin-left: 80px;
+}
+
+.con_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.con_in_wrap {
+  display: inline;
+}
+
+.con_tittel_wrap {
+  width: 100%;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_wrap {
+  display: flex;
+}
+
+.title_in_warp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result_wrap {
+  height: 618px;
+
+  background-color: #05203d;
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.but_wrap {
+  width: 444px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+
+  margin: 50px auto;
+}
+
+/* ---------------- */
+
+/* ------- form -------  */
+
+form {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 15px;
+  color: #010101;
+  background-color: #fafafa;
+  border: none;
+}
+
+input {
+  width: 200px;
+  height: 70px;
+  border: none;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+.fieldset_3 input:last-child {
+  text-align: start;
+}
+
+/* ------------------------ */
+
+/* ---------요소------------ */
+
+.but {
+  width: 223px;
+  height: 56px;
+  padding: 13px 32px;
+}
+
+.but_b {
+  width: 200px;
+  background-color: #045fe3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.but_b p {
+  display: block;
+
+  font-size: 18px;
+  color: #fafafa;
+}
+
+/* ------------------------ */
+
+/* ----글자 세팅---- */
+
+h2,
+h3,
+p,
+a {
+  letter-spacing: -1px;
+  color: #010101;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* --------------요소 ----------- */
+
+.bx--map::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: -0.125em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2301010105' d='M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4s-4 1.794-4 4s1.794 4 4 4m0-6c1.103 0 2 .897 2 2s-.897 2-2 2s-2-.897-2-2s.897-2 2-2'/%3E%3Cpath fill='%2301010105' d='M11.42 21.814a1 1 0 0 0 1.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819M12 4c3.309 0 6 2.691 6 6.005c.021 4.438-4.388 8.423-6 9.73c-1.611-1.308-6.021-5.294-6-9.735c0-3.309 2.691-6 6-6'/%3E%3C/svg%3E");
+}
+
+.fieldset {
+  border: solid 1px rgba(1, 1, 1, 0.5);
+
+  display: flex;
+  align-items: start;
+
+  position: relative;
+}
+
+/* --------------반응형 ------------ */
+
+@media screen and (max-width: 768px) {
+  section:not(.section_1) {
+    padding: 57px 0;
+  }
+
+  .menu_wrap {
+    width: 180px;
+    height: 25px;
+  }
+
+  .icon_wrap {
+    width: 68px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+  /* ---------------- */
+
+  /* ------- form -------  */
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  input {
+    width: 100px;
+    height: 60px;
+    border: none;
+
+    text-decoration: none;
+    text-align: center;
+
+    margin: 0;
+    margin-left: 0;
+  }
+
+  fieldset {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+  }
+
+  .fieldset_3 input:last-child {
+    text-align: start;
+  }
+
+  /* ----글자 세팅---- */
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* --------------요소 ----------- */
+
+  .but {
+    width: 117px;
+    height: 40px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .but_b {
+    width: 140px;
+    height: 40px;
+    padding: 10px 11px;
+  }
+
+  .but_b p {
+    width: 100%;
+    font-size: 18px;
+  }
+}

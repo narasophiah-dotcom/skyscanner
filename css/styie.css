@@ -1,0 +1,976 @@
+/*
+    
+    메인 컬러
+    
+    color: #05203D;
+    color: #045FE3;
+
+
+    서브컬러
+
+    color: #010101;
+    color: #FAFAFA; 
+    
+    */
+
+header {
+  width: 100%;
+  height: 60px;
+
+  background-color: #05203d;
+  color: #fafafa;
+
+  padding: 10px 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 173px;
+  height: 39px;
+
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #fafafa;
+}
+
+.log_in {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.i_pepole {
+  display: none;
+}
+
+/* 헤더 설정 끝--------------------- */
+
+/* section 1 설정 시작 */
+
+.section_1 {
+  width: 100%;
+  height: 600px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  /* background-color: aqua; */
+}
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(https://img.freepik.com/free-photo/both-male-female-tourists-carry-backpack-stand-road-raise-their-hands-both-sides_1150-24549.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+}
+
+.blak_box {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(1, 1, 1, 0.5);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+}
+
+.section_1 h2 {
+  color: #fafafa;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  z-index: 11;
+
+  transform: translateX(-50%);
+}
+
+.m_h2 {
+  display: none;
+}
+
+/* -------------------------------------- */
+
+/* section 2 설정 시작 */
+
+.section_2 {
+  width: 100%;
+}
+
+.con_wrap_2 {
+  width: 1520px;
+
+  padding: 0 20px;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.con_2 {
+  width: 365px;
+  /* height: 360px; */
+
+  background-color: #fafafa;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+}
+
+.con_2 .blak_box {
+  display: none;
+}
+
+.con_wrap_2 .con:first-child {
+  background-color: #045fe3;
+}
+
+.con_wrap_2 .con:first-child h2 {
+  color: #fafafa;
+}
+
+.con_wrap_2 .con:first-child p {
+  color: #fafafa;
+}
+
+.con img {
+  width: 100%;
+  height: 235px;
+}
+
+legend p {
+  color: rgba(1, 1, 1, 0.5);
+}
+
+/* ---------- */
+
+.title_wrap_2 {
+  height: 88px;
+
+  padding: 10px;
+
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.title_wrap_2 h2 {
+  font-size: 20px;
+}
+
+.title_wrap_2 p {
+  font-size: 18px;
+}
+
+.title_in_warp_2 p:first-child {
+  opacity: 0.5;
+}
+
+.title_wrap_2_2 {
+  width: 100px;
+  height: 24px;
+
+  color: #fafafa;
+
+  margin: 50px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_wrap_2_2 p {
+  color: #fafafa;
+}
+
+/* --------- */
+
+.fieldset_1 {
+  border-radius: 15px 0 0 15px;
+}
+
+.fieldset_2 {
+  display: flex;
+
+  margin: 0 10px 0 10px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fieldset_1 input {
+  margin-right: 20px;
+}
+
+.legend_2 {
+  margin-left: 10px;
+}
+
+.fieldset_3 {
+  border-radius: 0 15px 15px 0;
+}
+
+.form_wrap button {
+  width: 160px;
+}
+
+.but_b_2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 160px;
+  height: 70px;
+}
+
+/* --------icon------------*/
+
+.i_map_1 {
+  color: rgba(1, 1, 1, 0.5);
+  position: absolute;
+  top: 23px;
+  left: 13px;
+}
+
+.i_cp_arrows {
+  color: rgba(1, 1, 1, 0.5);
+  position: absolute;
+  top: 23px;
+  left: 45%;
+}
+
+.i_map_2 {
+  color: rgba(1, 1, 1, 0.5);
+  position: absolute;
+  top: 23px;
+  right: 185px;
+}
+
+.icon_wrap_2 {
+  width: 20px;
+}
+
+.i_calendar_1 {
+  color: rgba(1, 1, 1, 0.5);
+  position: absolute;
+  top: 23px;
+  left: 50px;
+}
+
+.i_calendar_2 {
+  color: rgba(1, 1, 1, 0.5);
+
+  z-index: 10;
+
+  position: absolute;
+  top: 23px;
+  right: 135px;
+}
+
+.i_pepole_2 {
+  color: rgba(1, 1, 1, 0.5);
+
+  position: absolute;
+  top: 25px;
+  left: 25%;
+}
+
+/* -------------------------------------- */
+/* section 3 설정 시작 */
+
+.section_3 {
+  background-color: #05203d;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.titelr_wrap_3 {
+  height: 237px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titelr_wrap_3 h2 {
+  font-size: 60px;
+  color: #fafafa;
+}
+
+.con_wrap_3 {
+  width: 756px;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.con_in_wrap_3 {
+  width: 756px;
+  height: 250px;
+
+  margin-bottom: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.con_3 {
+  width: 237px;
+  height: 250px;
+
+  background-color: #fafafa;
+
+  padding: 0 0 10px 0;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.con_3 img {
+  width: 100%;
+  height: 200px;
+}
+
+.con_3 h2,
+.con_3 p {
+  font-size: 16px;
+}
+
+/* -------------------------------------- */
+/* section 4 설정 시작 */
+
+.wrap {
+  width: 1524px;
+}
+
+.title_wrap_4 {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  line-height: 60px;
+}
+
+.titelr_wrap_4 h2 {
+  font-size: 60px;
+  line-height: 100px;
+}
+
+.titelr_wrap_4 h3 {
+  color: rgba(1, 1, 1, 0.5);
+}
+
+.con_4 {
+  width: 625px;
+  height: 220px;
+
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+}
+
+.con_wrap_4 {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap_4 {
+  width: 100%;
+  height: 625px;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.con_itw_1 {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.5);
+}
+
+.con_in_title_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.con_in_title_wrap h3 {
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.con_in_title_wrap p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.con_itw_2 {
+  height: 100%;
+
+  display: flex;
+
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.con_itw_2 p {
+  font-weight: 500;
+}
+
+.con_wrap_4 .con_itw_1 h3 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.con_wrap_4 .con_itw_2 h3 {
+  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.con_itw_2 p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(1, 1, 1, 0.5);
+}
+
+.but_b_4 {
+  height: 54px;
+  width: 178px;
+
+  background-color: #05203d;
+}
+
+/* ---------------------------------------*/
+/*footer 설정 시작 */
+
+.title_wrap_f {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.titel_in_wrap {
+  height: 153px;
+  width: 30%;
+
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.title_wrap_f a p {
+  color: #fafafa;
+
+  font-size: 18px;
+  font-weight: 300;
+
+  /* line-height: 40px; */
+}
+
+.ti_in_wrp_f_2 {
+  height: 83px;
+}
+
+.ti_in_wrp_f_2 p {
+  text-align: center;
+}
+
+.ti_in_wrp_f_3 p {
+  text-align: right;
+}
+
+/* ---------------------------------------*/
+/*반응형 설정 시작 */
+
+@media screen and (max-width: 768px){
+
+  .menu{
+
+    display: none;
+
+  }
+
+  header {
+
+    padding: 17px 10px;
+
+  }
+
+  .logo {
+
+    width: 96px;
+    height: 16px;
+
+  }
+
+  header svg {
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+  }
+
+  /* -------------------------------------- */
+  /* section 1 설정 시작 */
+
+  .section_1 h2 {
+
+    font-size: 22px;
+
+  }
+
+  .bg_img {
+    background-image: url(https://img.freepik.com/free-photo/rural-travelers-exploring-surroundings-together_23-2149125447.jpg);
+  }
+
+  .m_h2 {
+    display: block;
+    font-size: 25px;
+  }
+
+  .pc_h2 {
+    display: none;
+  }
+
+  /* -------------------------------------- */
+  /* section 2 설정 시작 */
+
+  .section_2 {
+    width: 100%;
+  }
+
+  .con_2 {
+    width: 345px;
+    height: 160px;
+
+    margin-bottom: 15px;
+
+    /* height: 360px; */
+
+    background-color: #fafafa;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .con_2 .blak_box {
+    display: block;
+  }
+
+  .con_2 h2 {
+    color: #fafafa;
+    position: absolute;
+    top: 85px;
+
+    font-size: 16px;
+
+    z-index: 11;
+  }
+
+  .con_2 p {
+    font-size: 12px;
+
+    color: #fafafa;
+    position: absolute;
+    top: 110px;
+
+    z-index: 11;
+  }
+
+  .pare {
+    right: 20px;
+  }
+
+  .con_2 p:first-child {
+    display: none;
+  }
+
+  .con_wrap_2 {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 100%;
+    height: 685px;
+  }
+
+  .result_wrap {
+    width: 100%;
+    height: 892px;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 0;
+  }
+
+  .fieldset {
+    width: 345px;
+    height: 60px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  legend p {
+    margin-top: 20px;
+  }
+
+  .fieldset_3 input {
+    width: 150px;
+  }
+
+  .fieldset_3 .icon_wrap {
+    width: 10px;
+  }
+
+  .form_wrap {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    margin-left: 0;
+  }
+
+  .fieldset_1 {
+    justify-content: center;
+  }
+
+  .fieldset_2 {
+    display: flex;
+
+    margin: 0;
+  }
+
+  .fieldset_2 .icon_wrap_2 {
+    width: 0;
+  }
+
+  .fieldset_1 input {
+    margin-right: 0;
+  }
+
+  .legend_2 {
+    margin-left: 0;
+  }
+
+  .fieldset_1 {
+    border-radius: 15px;
+  }
+
+  .fieldset_3 {
+    border-radius: 15px;
+  }
+
+  .form_wrap button {
+    width: 160px;
+  }
+
+  /* --------icon------------*/
+
+  .i_map_1 {
+    color: rgba(1, 1, 1, 0.5);
+    position: absolute;
+    top: 19px;
+    left: 7px;
+  }
+
+  .i_cp_arrows {
+    color: rgba(1, 1, 1, 0.5);
+    position: absolute;
+    top: 19px;
+    left: 159px;
+  }
+
+  .i_map_2 {
+    color: rgba(1, 1, 1, 0.5);
+    position: absolute;
+    top: 19px;
+    right: 130px;
+  }
+
+  .icon_wrap_2 {
+    width: 20px;
+  }
+
+  .i_calendar_1 {
+    color: rgba(1, 1, 1, 0.5);
+    position: absolute;
+    top: 19px;
+    left: 20%;
+  }
+
+  .i_calendar_2 {
+    color: rgba(1, 1, 1, 0.5);
+
+    z-index: 10;
+
+    position: absolute;
+    top: 19px;
+    right: 140px;
+  }
+
+  .i_pepole_2 {
+    color: rgba(1, 1, 1, 0.5);
+
+    position: absolute;
+    top: 19px;
+    left: 22%;
+  }
+
+  .icon_wrap_2_1 {
+    width: 85px;
+  }
+
+  /* -------------------------------------- */
+  /* section 3  설정 시작 */
+
+  .section_3 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+  }
+
+  .section_3 h2 {
+    font-size: 20px;
+    color: #010101;
+  }
+
+  .con_in_wrap_3 .con_3:last-child {
+    display: none;
+  }
+
+  .con_in_wrap_3 .con_3:nth-child(2) {
+    margin-left: 10px;
+  }
+
+  .titelr_wrap_3 h2 {
+    margin-left: 20px;
+    margin-bottom: 14px;
+  }
+
+  .con_3 {
+    width: 231px;
+    height: 141px;
+  }
+
+  .con_3 img {
+    width: 100;
+    height: 115px;
+  }
+  .con_3 h2 {
+    font-size: 12px;
+  }
+
+  .con_3 p {
+    font-size: 12px;
+  }
+
+  .con_in_wrap_3 {
+    width: 452px;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+
+  .con_in_title_wrap {
+    height: 20px;
+  }
+
+  .titelr_wrap_3 {
+    height: 48px;
+  }
+
+  .titelr_wrap_3 p:not(.but_1 p) {
+    display: none;
+  }
+
+  .con_wrap_3 {
+    box-sizing: content-box;
+
+    background-color: #05203d;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    border: solid #05203d 20px;
+  }
+
+  .but_wrap {
+    width: 100%;
+
+    padding: 20px;
+  }
+
+  .but_b_2 {
+    width: 143px;
+    height: 40px;
+    padding: 10px 42px;
+  }
+
+  .but_b_2 p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .but_1 {
+    position: absolute;
+
+    width: 145px;
+    height: 40px;
+
+    border: rgba(1, 1, 1, 0.5) solid 1px;
+    bottom: -30px;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+
+  .but_1 p {
+    font-size: 12px;
+  }
+
+  /* -------------------------------------- */
+  /* section 4 설정 시작 */
+
+  .wrap_4 {
+    padding: 0 20px;
+  }
+
+  .con_wrap_4 {
+    flex-direction: column;
+  }
+
+  .title_wrap_4 {
+    font-size: 20px;
+
+    line-height: 40px;
+
+    align-items: start;
+  }
+
+  .title_wrap_4 h3 {
+    width: 100%;
+
+    text-align: start;
+    font-size: 16px;
+    color: rgba(1, 1, 1, 0.5);
+
+    border-bottom: rgba(1, 1, 1, 0.5) solid 1px;
+  }
+
+  .con_4 {
+    width: 100%;
+  }
+
+  .con_4 .con_itw_1 h3 {
+    font-size: 16px;
+    line-height: 0;
+  }
+
+  .con_itw_1 p {
+    font-size: 25px;
+  }
+
+  .con_wrap_4 .con_itw_2 h3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .con_4 .con_in_title_wrap h3 {
+    font-size: 16px;
+  }
+
+  .con_itw_2 p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .con_itw_1 {
+    margin-top: 20px;
+    border-bottom: none;
+  }
+
+  .but_b_4 {
+    width: 120px;
+    height: 40px;
+    padding: 11px 19px;
+  }
+
+  .but_b_4 p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  /* ---------------------------------------*/
+  /*footer 설정 시작 */
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    display: none;
+  }
+}
