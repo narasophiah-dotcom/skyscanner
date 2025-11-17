@@ -130,6 +130,8 @@ header a {
 
   border-radius: 15px;
 
+  margin-left: 30px;
+
   overflow: hidden;
 }
 
@@ -175,7 +177,9 @@ legend p {
 }
 
 .title_wrap_2 p {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 .title_in_warp_2 p:first-child {
@@ -319,17 +323,10 @@ legend p {
   padding: 0;
   margin: 0;
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
   flex-direction: column;
 }
 
 .con_in_wrap_3 {
-  width: 756px;
-  height: 250px;
-
   margin-bottom: 27px;
 
   display: flex;
@@ -338,12 +335,10 @@ legend p {
 }
 
 .con_3 {
-  width: 237px;
-  height: 250px;
+  width: 33%;
+  height: 200px;
 
   background-color: #fafafa;
-
-  padding: 0 0 10px 0;
 
   border-radius: 10px;
 
@@ -352,6 +347,8 @@ legend p {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+
+  margin-right: 17px;
 
   overflow: hidden;
 }
@@ -364,6 +361,10 @@ legend p {
 .con_3 h2,
 .con_3 p {
   font-size: 16px;
+}
+
+.con_3 p {
+  opacity: 0.7;
 }
 
 /* -------------------------------------- */
@@ -426,7 +427,8 @@ legend p {
 }
 
 .con_itw_1 {
-  border-bottom: 1px solid rgba(1, 1, 1, 0.5);
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  padding-bottom: 5px;
 }
 
 .con_in_title_wrap {
@@ -505,9 +507,7 @@ legend p {
 
 .title_wrap_f a p {
   color: #fafafa;
-
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 14px;
 
   /* line-height: 40px; */
 }
@@ -527,25 +527,18 @@ legend p {
 /* ---------------------------------------*/
 /*반응형 설정 시작 */
 
-@media screen and (max-width: 768px){
-
-  .menu{
-
+@media screen and (max-width: 768px) {
+  .menu {
     display: none;
-
   }
 
   header {
-
     padding: 17px 10px;
-
   }
 
   .logo {
-
     width: 96px;
     height: 16px;
-
   }
 
   header svg {
@@ -558,9 +551,7 @@ legend p {
   /* section 1 설정 시작 */
 
   .section_1 h2 {
-
     font-size: 22px;
-
   }
 
   .bg_img {
@@ -720,6 +711,7 @@ legend p {
 
   .form_wrap button {
     width: 160px;
+    height: 45px;
   }
 
   /* --------icon------------*/
@@ -762,8 +754,8 @@ legend p {
     z-index: 10;
 
     position: absolute;
-    top: 19px;
-    right: 140px;
+    top: 18px;
+    right: 144px;
   }
 
   .i_pepole_2 {
@@ -783,7 +775,7 @@ legend p {
 
   .section_3 {
     width: 100%;
-    height: 500px;
+    height: 545px;
     background-color: white;
 
     display: flex;
@@ -801,34 +793,32 @@ legend p {
     display: none;
   }
 
-  .con_in_wrap_3 .con_3:nth-child(2) {
-    margin-left: 10px;
-  }
-
   .titelr_wrap_3 h2 {
     margin-left: 20px;
     margin-bottom: 14px;
   }
 
   .con_3 {
-    width: 231px;
-    height: 141px;
+    width: 230px;
+    height: 150px;
+    margin-right: 10px;
   }
 
   .con_3 img {
-    width: 100;
+    width: 100%;
     height: 115px;
   }
   .con_3 h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .con_3 p {
-    font-size: 12px;
+    font-size: 14px;
+
+    opacity: 0.7;
   }
 
   .con_in_wrap_3 {
-    width: 452px;
     height: 50%;
     margin-bottom: 10px;
   }
@@ -858,8 +848,11 @@ legend p {
 
   .but_wrap {
     width: 100%;
+    padding: 0 20px;
 
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .but_b_2 {
@@ -880,7 +873,7 @@ legend p {
     height: 40px;
 
     border: rgba(1, 1, 1, 0.5) solid 1px;
-    bottom: -30px;
+    bottom: -5px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -933,16 +926,16 @@ legend p {
   }
 
   .con_wrap_4 .con_itw_2 h3 {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 14px;
   }
 
   .con_4 .con_in_title_wrap h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .con_itw_2 p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
   }
 
