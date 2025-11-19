@@ -113,7 +113,7 @@ header a {
 }
 
 .con_wrap_2 {
-  width: 1520px;
+  width: 1860px;
 
   padding: 0 20px;
 
@@ -139,15 +139,18 @@ header a {
   display: none;
 }
 
-.con_wrap_2 .con:first-child {
+.con_wrap_2 .con:first-child,
+.con_wrap_2 .con:last-child {
   background-color: #045fe3;
 }
 
-.con_wrap_2 .con:first-child h2 {
+.con_wrap_2 .con:first-child h2,
+.con_wrap_2 .con:last-child h2 {
   color: #fafafa;
 }
 
-.con_wrap_2 .con:first-child p {
+.con_wrap_2 .con:first-child p,
+.con_wrap_2 .con:last-child p {
   color: #fafafa;
 }
 
@@ -163,8 +166,6 @@ legend p {
 /* ---------- */
 
 .title_wrap_2 {
-  height: 88px;
-
   padding: 10px;
 
   align-items: start;
@@ -174,11 +175,13 @@ legend p {
 
 .title_wrap_2 h2 {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .title_wrap_2 p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5em;
   opacity: 0.7;
 }
 
@@ -314,6 +317,7 @@ legend p {
 
 .titelr_wrap_3 h2 {
   font-size: 60px;
+  line-height: 1.2em;
   color: #fafafa;
 }
 
@@ -459,6 +463,9 @@ legend p {
 
 .con_itw_2 p {
   font-weight: 500;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .con_wrap_4 .con_itw_1 h3 {
@@ -551,7 +558,7 @@ legend p {
   /* section 1 설정 시작 */
 
   .section_1 h2 {
-    font-size: 22px;
+    font-size: 38px;
   }
 
   .bg_img {
@@ -600,13 +607,13 @@ legend p {
     position: absolute;
     top: 85px;
 
-    font-size: 16px;
+    font-size: 18px;
 
     z-index: 11;
   }
 
   .con_2 p {
-    font-size: 12px;
+    font-size: 16px;
 
     color: #fafafa;
     position: absolute;
@@ -770,12 +777,18 @@ legend p {
     width: 85px;
   }
 
+  /* =========================== */
+
+  .con_wrap_2 .con_2:last-child {
+    display: none;
+  }
+
   /* -------------------------------------- */
   /* section 3  설정 시작 */
 
   .section_3 {
     width: 100%;
-    height: 545px;
+    height: 570px;
     background-color: white;
 
     display: flex;
@@ -785,7 +798,7 @@ legend p {
   }
 
   .section_3 h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #010101;
   }
 
@@ -800,7 +813,7 @@ legend p {
 
   .con_3 {
     width: 230px;
-    height: 150px;
+    height: 160px;
     margin-right: 10px;
   }
 
@@ -836,6 +849,7 @@ legend p {
   }
 
   .con_wrap_3 {
+    width: 520px;
     box-sizing: content-box;
 
     background-color: #05203d;
