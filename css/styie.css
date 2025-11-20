@@ -115,8 +115,6 @@ header a {
 .con_wrap_2 {
   width: 1860px;
 
-  padding: 0 20px;
-
   overflow: hidden;
 
   position: relative;
@@ -821,6 +819,7 @@ legend p {
     width: 100%;
     height: 115px;
   }
+
   .con_3 h2 {
     font-size: 14px;
   }
