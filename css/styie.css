@@ -333,7 +333,7 @@ legend p {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .con_3 {
@@ -831,6 +831,7 @@ legend p {
   }
 
   .con_in_wrap_3 {
+    width: 90%;
     height: 50%;
     margin-bottom: 10px;
   }
@@ -848,7 +849,7 @@ legend p {
   }
 
   .con_wrap_3 {
-    width: 520px;
+    width: 100%;
     box-sizing: content-box;
 
     background-color: #05203d;
@@ -856,7 +857,7 @@ legend p {
     align-items: start;
     flex-direction: column;
 
-    border: solid #05203d 20px;
+    padding: 20px;
   }
 
   .but_wrap {
